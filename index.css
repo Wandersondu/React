@@ -1,16 +1,25 @@
-body {
-    padding: 50px;
-    background-color: rgb(197, 201, 199);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Righteous&display=swap');
+
+:root{
+  --pink-light: #38cefcd2;
+  --cyan-light: #38fa79b6;
 
 }
-
+body {
+  min-height: 100vh;
+  background-image: linear-gradient( to bottom Right, var(--pink-light), var(--cyan-light));
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 5vh 15px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  
+}
 .foto {
   width: 400px;
   height: 400px;
 }
-
-h1, p, h4, h2 {
-  background-color: antiquewhite;
-  color: red;
-  
+h1{
+  background-color: rgba(253, 253, 253, 0.692);
+  color: rgb(5, 2, 8);
 }
